@@ -1,5 +1,5 @@
 # Beale Cipher
-An implementation of a (Beale cipher)[https://en.wikipedia.org/wiki/Beale_ciphers] algorithm.
+An implementation of a [Beale cipher](https://en.wikipedia.org/wiki/Beale_cipher) algorithm.
 
 # Build and run
 Run `make` to build an executable called `beale`.
