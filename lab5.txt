@@ -1,0 +1,24 @@
+driver: hholbroo
+navigator: dyost
+
+A.
+    I think it would be better to pass structs that hold the length and the array because that avoids
+    having to a do an O(n) loop to determine the bounds of the array each time you need to iterate over it.
+    Since the length only adds 32 or 64 bits to the size of the struct, I think it is well worth it over having to
+    find the length of the array manually. My guess is that this kind of thing was the driving force behind the
+    development of OOP features.
+
+B.
+    As said in the instructions, removing the spaces would make this much harder to crack, but also harder to implement.
+    You could combine this algorithm with something like the Vigenere cipher and add a key that controls which letter
+    of each word in the text is used to encipher the message. You may need some extra data structures to keep track of that
+    for the decryption process, which probably makes it no longer a Beale cipher.
+
+C.
+    The Beale cipher is the most interesting so far! It was not as challenging to implement as I first thought.
+    The Vigenere cipher was a good introduction in how a key can be used to do more advanced encryption.
+    The Caesar cipher is pretty basic, but was a good reintroduction to working with strings in C.
+
+D.
+    Probably not. I assume people much smarter than me have tried and failed. I should probably spend that time working
+    on my capstone project...
